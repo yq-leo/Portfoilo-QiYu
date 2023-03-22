@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="nav collapsible">
+      <a class="nav__brand" href="/">
+        <img src="images/signature.svg" alt="" />
+      </a>
+      <svg class="icon nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Home</a></li>
+        <li class="nav__item"><a href="#section--about-me">About</a></li>
+        <li class="nav__item"><a href="#section--projects">Projects</a></li>
+        <li class="nav__item"><a href="#">Publications</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Homepage -->
+    <section class="homepage" id="section--homepage">
+      <img class="img--selfie" src="images/selfie.jpeg" alt="My Selfie" />
+      <div class="homepage__content">
+        <h1 class="hi-qi-yu">Hi, I'm Qi (Leo) Yu</h1>
+        <h1 class="cs-student">Computer Science Student</h1>
+        <p>
+          I’m a first-year Master student in Computer Science at the
+          <span class="uiuc--orange">
+            University of Illinois at Urbana-Champaign (UIUC)
+          </span>
+          . I’m interested in Front-End / Full-Stack Development.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="section--about-me">
+      <h1>About Me</h1>
+      <div class="introduction">
+        <h2>Introduction</h2>
+        <p>
+          I’m a first-year Master of Computer Science student at the University
+          of Illinois at Urbana-Champaign (UIUC). My general interests lie on
+          Front-End and Full-Stack development. I’m also a machine learning &
+          data science enthusiast and is passionate about parallel algorithms
+          and CUDA programming. I’m expected to graduate in December, 2023, and
+          I’m currently looking for 2023 summer internship opportunities.
+        </p>
+      </div>
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <div class="education__item">
+              <img src="images/school_logos/uiuc_logo.jpg" alt="" />
+              <div class="education__body">
+                <h3>University of Illinois at Urbana-Champaign</h3>
+                <ul>
+                  <li>Master of Computer Science (2022.8 - 2023.12)</li>
+                  <li>GPA: 4.0 / 4.0</li>
+                  <li>
+                    Courses: Database Systems, Distributed Systems, Manycore
+                    Parallel Algorithms, etc.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="education__item">
+              <img src="images/school_logos/dlut_logo.png" alt="" />
+              <div class="education__body">
+                <h3>Dalian University of Technology</h3>
+                <ul>
+                  <li>
+                    Bachelor of Engineering in Computer Science (2018.9 -
+                    2022.7)
+                  </li>
+                  <li>GPA: 90.4 / 100</li>
+                  <li>
+                    Courses: Data Structures, Object-Oriented Programming (C++),
+                    Operating Systems, etc.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="education__item">
+              <img src="images/school_logos/ucla_logo.png" alt="" />
+              <div class="education__body">
+                <h3>University of California, Los Angeles</h3>
+                <ul>
+                  <li>Summer Session (2020.6-2020.8)</li>
+                  <li>GPA: 4.0 / 4.0</li>
+                  <li>Course: Algorithms & Complexity</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="tech-stacks">
+        <h2>Tech Stacks</h2>
+        <div class="grid grid--1x2 grid--1x3 grid--1x4 grid--1x5">
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#c++_logo"></use>
+            </svg>
+            <h3>C++</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#c_logo"></use>
+            </svg>
+            <h3>C</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#java_logo"></use>
+            </svg>
+            <h3>Java</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#python_logo"></use>
+            </svg>
+            <h3>Python</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#html_logo"></use>
+            </svg>
+            <h3>HTML</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#css_logo"></use>
+            </svg>
+            <h3>CSS</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#javascript_logo"></use>
+            </svg>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#mysql_logo"></use>
+            </svg>
+            <h3>MySQL</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#nodejs_logo"></use>
+            </svg>
+            <h3>Node.js</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#bootstrap_logo"></use>
+            </svg>
+            <h3>Bootstrap</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#git_logo"></use>
+            </svg>
+            <h3>Git</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#cuda_logo"></use>
+            </svg>
+            <h3>CUDA</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#pytorch_logo"></use>
+            </svg>
+            <h3>PyTorch</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#opencv_logo"></use>
+            </svg>
+            <h3>OpenCV</h3>
+          </div>
+          <div class="tech-stacks__item">
+            <svg class="card__icon">
+              <use xlink:href="images/tech_logos.svg#gurobi_logo"></use>
+            </svg>
+            <h3>Gurobi</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="section--projects">
+      <h1>Projects</h1>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/ratemyrsos.jpg" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>RateMyRSOs</h3>
+          <p>
+            Built a full-stack web application, RateMyRSOs, that allows students
+            at UIUC to post reviews and ratings to UIUC’s different Registered
+            Student Organizations (RSOs). (Team project, in progress)
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: MySQL, HTML&CSS,
+            Bootstrap, JavaScript, Node.js, GCP
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/ece408.png" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Parallelization over LeNet-5</h3>
+          <p>
+            Implemented and optimized LeNet-5's forward pass of convolution
+            layers using parallelization techniques such as joint register and
+            shared memory tiling SGEMM. Results beats 90% fellow competitors in
+            terms of speed.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: CUDA, C++, Profiling,
+            NVIDIA Nsight Compute
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/ddi.png" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>DDI Detection by Drug KG</h3>
+          <p>
+            Construct a large-scale Drug Knowledge Graph (KG) from multiple
+            pharmaceutical databases; Proposed a Conv-LSTM-based network
+            Light-CLSTM to predict Drug-Drug Interactions (DDI) and achieved
+            0.99 AUPR and 0.88 MCC.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: PyTorch, TensorFlow,
+            SPARQL, Data Mining, Knowledge Graph
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/wcrt.png" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Prioritized List Scheduling</h3>
+          <p>
+            Encoded the priority assignment problem for a DAG task into an
+            Integer Programming formulation (IP) and proposed an iterative
+            algorithm that involves only 12.67% variables for deriving the
+            minimum WCRT bound.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: Integer Programming,
+            DAG, Optimization, Python, Gurobi
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/ht.jpg" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Intelligent Handling Robot</h3>
+          <p>
+            Led a team of five students to program an intelligent robot capable
+            of carrying the pillar with the correct facial image to the
+            designated area. Project scored the highest in the class.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: Android Development,
+            PyTorch, OpenCV, Respberry Pi, Facial Recognition, YOLO
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/ucinspire.png" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Personalized Machine Learning for Cloud</h3>
+          <p>
+            Proposed a personalized ML schema for resource-constrained
+            distributed systems by exploiting temporal correlations among data
+            and enabling local training. Proposed method improved resource
+            utilization by 91% and reduced network communications by 84%.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: PyTorch, Machine
+            Learing, Cloud Computing, Distributed Systems
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/jsp.png" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Static Job-shop Scheduling for Industry</h3>
+          <p>
+            Formulated the static Job-Shop Scheduling Problem (JSP) into a
+            programmable model in Factor Graph; Proposed a derivative of
+            distributed max-sum algorithm to iteratively solve the programmable
+            model. Proposed algorithm capable of resolving large-scale JSPs in
+            an industrial environment with a 3-time faster speed.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: C++, Concurrent
+            Programming, Job-shop Scheduling
+          </p>
+        </div>
+      </div>
+      <div class="project__item">
+        <div class="block--img">
+          <img src="images/project_logos/uav.jpg" alt="" />
+        </div>
+        <div class="project__item--body">
+          <h3>Project - Anomaly Detection in UAV Scenarios</h3>
+          <p>
+            Led a team of 4 student to propose a deep learning object detection
+            algorithm based on YOLOv3 to detect abnormal human behavior; Boosted
+            our model's performance to 0.76 mAP and 0.85 mAR through a
+            customized game-based dataset GTA-UAV-Actions.
+          </p>
+          <p class="project__item--tech">
+            <span style="font-weight: 500">Tech</span>: PyTorch, OpenCV, Hadoop,
+            Computer Vision
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
