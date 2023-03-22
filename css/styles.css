@@ -528,3 +528,30 @@ p.project__item--tech {
     font-size: 1.8rem;
   }
 }
+
+/* Publications */
+.publications {
+  background-color: #fafafa;
+  padding: 4.2rem 0 4.2rem 0;
+}
+
+.publications h1 {
+  margin: 0 0 0;
+  padding: 0 0 0;
+  text-align: center;
+}
+
+.publication__item {
+  background-color: #e3ebf5;
+  margin: 1rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+
+.publication__item p {
+  color: #091320;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
