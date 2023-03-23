@@ -27,8 +27,10 @@
         <li class="nav__item"><a href="#">Home</a></li>
         <li class="nav__item"><a href="#section--about-me">About</a></li>
         <li class="nav__item"><a href="#section--projects">Projects</a></li>
-        <li class="nav__item"><a href="#">Publications</a></li>
-        <li class="nav__item"><a href="#">Contact</a></li>
+        <li class="nav__item">
+          <a href="#section--publications">Publications</a>
+        </li>
+        <li class="nav__item"><a href="#section--contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -361,7 +363,7 @@
     </section>
 
     <!-- Publications -->
-    <section class="publications">
+    <section class="publications" id="section--publications">
       <h1>Publications</h1>
       <div class="publication__item">
         <p>
@@ -375,7 +377,7 @@
       <div class="publication__item">
         <p>
           <span style="font-weight: 700">[Patent]</span>
-          Qi Yu}, Yuhan Wang, Jinghao Sun. 2021. A Distributed Max-Sum Algorithm
+          Qi Yu, Yuhan Wang, Jinghao Sun. 2021. A Distributed Max-Sum Algorithm
           for Job Shop Scheduling in an Industry 4.0 Environment, CN
           202110789792.5.
         </p>
@@ -383,8 +385,84 @@
     </section>
 
     <!-- Contact -->
-    <section class="contact">
+    <section class="contact" id="section--contact">
       <h1>Contact</h1>
+      <div class="contact__body">
+        <div class="contact__prompt">
+          <p>
+            Have Questions? Or just want to say hello? Send me a message here.
+          </p>
+          <div class="contact__prompt--greeting">
+            <img src="images/hello.png" alt="" />
+          </div>
+          <div class="social-accounts">
+            <div class="social-accounts__item">
+              <a href="https://github.com/yq-leo">
+                <svg class="social__icons">
+                  <use xlink:href="images/social_logos.svg#github_logo"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social-accounts__item">
+              <a href="https://www.linkedin.com/in/qi-leo-yu/">
+                <svg class="social__icons">
+                  <use xlink:href="images/social_logos.svg#linkedin_logo"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social-accounts__item">
+              <a href="https://leetcode.com/QiYuLeo/">
+                <svg class="social__icons">
+                  <use xlink:href="images/social_logos.svg#leetcode_logo"></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social-accounts__item">
+              <a href="https://www.instagram.com/">
+                <!-- <svg class="social__icons">
+                  <use xlink:href="images/social_logos.svg#instagram_logo"></use>
+                </svg> -->
+                <img
+                  class="social__icons"
+                  src="images/social_logos/instagram_logo.svg"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="contact__message-box">
+          <div class="message-box--name">
+            <label>Name</label>
+            <input
+              type="text"
+              min-width="1"
+              max-width="255"
+              placeholder="Enter your name"
+            />
+          </div>
+          <div class="message-box--email">
+            <label>Email</label>
+            <input
+              type="email"
+              min-width="1"
+              max-width="255"
+              placeholder="Enter your email"
+            />
+          </div>
+          <div class="message-box--content">
+            <label>Message</label>
+            <textarea
+              type="text"
+              min-width="1"
+              max-width="255"
+              rows="8"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+          <a class="button" href="">Submit</a>
+        </div>
+      </div>
     </section>
 
     <script src="js/main.js"></script>
