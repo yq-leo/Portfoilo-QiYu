@@ -619,16 +619,20 @@ p.project__item--tech {
 .social-accounts {
   display: flex;
   justify-content: center;
-  padding-top: 1rem;
 }
 
 .social-accounts__item {
-  margin: 0 1.2rem 0 1.2rem;
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
 }
 
 .social__icons {
   height: 4rem;
   width: 4rem;
+}
+
+.social__icons:hover {
+  transform: scale(1.25);
+  overflow: hidden;
 }
 
 .contact__message-box {
@@ -719,6 +723,10 @@ textarea {
 
   .contact__prompt--greeting img {
     height: 24rem;
+  }
+
+  .social-accounts__item {
+    padding: 0.5rem 2rem 0.5rem 2rem;
   }
 
   .contact__message-box {
