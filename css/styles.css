@@ -580,7 +580,7 @@ p.project__item--tech {
 /* Contact */
 .contact {
   background-color: #edeff4;
-  padding: 4.2rem 0 4.2rem 0;
+  padding: 4.2rem 0 2.4rem 0;
 }
 
 .contact h1 {
@@ -687,7 +687,7 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .contact {
-    padding: 6rem 0 6rem;
+    padding: 6rem 0 8rem;
   }
 
   .contact h1 {
@@ -730,5 +730,27 @@ textarea {
   .button {
     margin-left: 10rem;
     margin-right: 10rem;
+  }
+}
+
+/* Footer */
+.footer {
+  background-color: #2a2727;
+  text-align: center;
+  padding: 2rem 0 2rem;
+}
+
+.footer p {
+  margin-bottom: 0;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 2.4rem 0 2.4rem;
+  }
+
+  .footer p {
+    font-size: 1.8rem;
   }
 }
