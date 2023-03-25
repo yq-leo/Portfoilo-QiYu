@@ -250,20 +250,20 @@ a {
   }
 
   .homepage .img--selfie {
-    margin: 12rem 0 1rem 20rem;
+    margin: 12rem 0 1rem 16vw;
     width: 20rem;
     height: 20rem;
   }
 
   .homepage__content h1 {
     font-size: 4.2rem;
-    margin-left: 8rem;
+    margin-left: 8vw;
     margin-right: 50%;
   }
 
   .homepage__content p {
     font-size: 2.2rem;
-    margin-left: 8rem;
+    margin-left: 8vw;
     margin-right: 50%;
     margin-top: 6rem;
     padding-bottom: 20rem;
