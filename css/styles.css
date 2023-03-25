@@ -219,9 +219,9 @@ a {
 
 .homepage .img--selfie {
   border-radius: 50%;
-  width: 20%;
-  height: 20%;
-  margin-top: 3rem;
+  width: 12rem;
+  height: 12rem;
+  margin-top: 4rem;
 }
 
 .homepage__content h1 {
