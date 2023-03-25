@@ -609,6 +609,8 @@ p.project__item--tech {
   padding-bottom: 1rem;
   background-color: #fff;
   border-radius: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .contact__prompt--greeting img {
@@ -716,12 +718,13 @@ textarea {
   }
 
   .contact__prompt--greeting {
-    margin: 3rem 10rem 3rem 10rem;
+    margin: 3rem 2rem 3rem 2rem;
     padding-bottom: 2rem;
   }
 
   .contact__prompt--greeting img {
-    height: 24rem;
+    height: auto;
+    width: 15vw;
   }
 
   .social-accounts__item {
