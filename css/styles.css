@@ -82,29 +82,29 @@ p {
 /* Grid */
 .grid {
   display: grid;
-  margin-left: 3rem;
-  margin-right: 0;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .grid--1x2 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-@media screen and (min-width: 585px) {
+@media screen and (min-width: 950px) {
   .grid--1x3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1215px) {
   .grid--1x4 {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
-@media screen and (min-width: 975px) {
+@media screen and (min-width: 1500px) {
   .grid--1x4 {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
 
@@ -347,14 +347,14 @@ a {
   background-color: #f0f0f0;
   display: flex;
   align-items: center;
-  margin: 1rem 3rem 1rem 0;
+  margin: 1rem 1.5rem 1rem 1.5rem;
   box-shadow: 0 0 0.8rem 0.1rem #8ba2c7;
   border-radius: 0.3rem;
 }
 
 .card__icon {
-  width: 5rem;
-  height: 5rem;
+  width: 10vw;
+  height: 10vw;
   margin: 0.8rem 1rem 0.8rem 1rem;
 }
 
@@ -420,13 +420,12 @@ a {
   }
 
   .tech-stacks__item {
-    margin-right: 5rem;
-    margin-bottom: 2rem;
+    margin: 1.5rem 2.5rem 1.5rem 2.5rem;
   }
 
   .grid {
-    margin-left: 12rem;
-    margin-right: 7rem;
+    margin-left: 10.5rem;
+    margin-right: 10.5rem;
   }
 }
 
