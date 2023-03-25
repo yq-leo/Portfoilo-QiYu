@@ -259,7 +259,7 @@ a {
 @media screen and (min-width: 768px) {
   .homepage {
     text-align: left;
-    padding-bottom: 20rem;
+    padding-bottom: 13rem;
   }
 
   .homepage .img--selfie {
@@ -290,7 +290,7 @@ a {
 
 @media screen and (min-width: 1600px) {
   .homepage {
-    padding-bottom: 45rem;
+    padding-bottom: 18rem;
   }
 
   .homepage .img--selfie {
