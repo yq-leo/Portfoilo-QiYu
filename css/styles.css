@@ -215,6 +215,7 @@ a {
   background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 4.5rem;
 }
 
 .homepage .img--selfie {
@@ -242,16 +243,27 @@ a {
   color: #f8f9fa;
   letter-spacing: 0.5px;
   margin: 3rem 2rem 0 2rem;
-  padding-bottom: 5rem;
+}
+
+.button.button--resume {
+  margin-top: 3rem;
+  color: #fff;
+  background-color: #0080ff;
+}
+
+.button.button--resume:hover {
+  background-color: #4ca5ff;
+  border-color: #4ca5ff;
 }
 
 @media screen and (min-width: 768px) {
   .homepage {
     text-align: left;
+    padding-bottom: 20rem;
   }
 
   .homepage .img--selfie {
-    margin: 14vh 0 1rem 16vw;
+    margin: 12vh 0 1rem 16vw;
     width: 20rem;
     height: 20rem;
   }
@@ -267,13 +279,22 @@ a {
     margin-left: 8vw;
     margin-right: 50%;
     margin-top: 6rem;
-    padding-bottom: 20rem;
+  }
+
+  .button.button--resume {
+    margin-right: 65%;
+    margin-left: 15%;
+    margin: 6.5rem 65% 0 12vw;
   }
 }
 
 @media screen and (min-width: 1600px) {
+  .homepage {
+    padding-bottom: 45rem;
+  }
+
   .homepage .img--selfie {
-    margin: 16rem 0 1.5rem 35rem;
+    margin: 12rem 0 1.5rem 35rem;
     width: 24rem;
     height: 24rem;
   }
@@ -287,7 +308,6 @@ a {
   .homepage__content p {
     font-size: 2.6rem;
     margin-left: 18rem;
-    padding-bottom: 45rem;
   }
 }
 
@@ -700,7 +720,7 @@ textarea {
   border: 0.2rem solid #0080ff;
   border-radius: 1rem;
   transition: all 0.2s;
-  transition-property: color, background-color, opacity;
+  transition-property: color, background-color, opacity, border-color;
 }
 
 .button:hover {
