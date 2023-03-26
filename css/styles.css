@@ -750,6 +750,13 @@ textarea {
   opacity: 0.5;
 }
 
+.powered-by {
+  color: #bfc2c5;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   .contact {
     padding: 6rem 0 8rem;
