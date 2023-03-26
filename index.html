@@ -497,7 +497,7 @@
           enctype="text/plain"
           action="https://docs.google.com/forms/d/e/1FAIpQLSch8gVBawLm_EHn1Za5EKUY1aaPpqjjvXbEUqufuDBplarD9g/formResponse?"
           target="hidden_iframe"
-          onsubmit="submitted=true; alertSubmitSuccess(); this.reset()"
+          onsubmit="this.submit(); alertSubmitSuccess(); this.reset(); return false;"
         >
           <div class="message-box--textin">
             <label>Name</label>
@@ -539,14 +539,13 @@
           <div class="message-box--button">
             <input type="submit" value="Submit" />
           </div>
+          <!-- Stop redirection to google form -->
+          <iframe
+            name="hidden_iframe"
+            id="hidden_iframe"
+            style="display: none"
+          ></iframe>
         </form>
-        <!-- Stop redirection to google form -->
-        <iframe
-          name="hidden_iframe"
-          id="hidden_iframe"
-          style="display: none"
-          onload="if(submitted) {}"
-        ></iframe>
       </div>
     </section>
 
