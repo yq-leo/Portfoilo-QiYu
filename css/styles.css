@@ -691,7 +691,7 @@ p.project__item--tech {
   margin-bottom: 0.5rem;
 }
 
-.contact__message-box input,
+.message-box--textin input,
 textarea {
   border: 0;
   border-radius: 0.5rem;
@@ -708,27 +708,31 @@ textarea {
   font-size: 1.5rem;
 }
 
-.button {
-  display: block;
+.message-box--button {
   text-align: center;
+}
+
+.message-box--button input {
   color: #0080ff;
   font-weight: 500;
   font-size: 2rem;
-  margin: 2rem 8rem 1rem 8rem;
-  padding: 1rem 0 1rem 0;
+  margin: 2rem 0 2rem 0;
+  width: 50%;
+  padding: 1rem 3rem 1rem 3rem;
   background-color: #fff;
   border: 0.2rem solid #0080ff;
   border-radius: 1rem;
   transition: all 0.2s;
   transition-property: color, background-color, opacity, border-color;
+  cursor: pointer;
 }
 
-.button:hover {
+.message-box--button input:hover {
   color: #fff;
   background-color: #0080ff;
 }
 
-.button:active {
+.message-box--button input:active {
   opacity: 0.5;
 }
 

@@ -4,3 +4,7 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
+
+function alertSubmitSuccess() {
+  alert("Submitted! Thank you for your message!");
+}
