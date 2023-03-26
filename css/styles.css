@@ -245,13 +245,25 @@ a {
   margin: 3rem 2rem 0 2rem;
 }
 
-.button.button--resume {
-  margin-top: 3rem;
+.resume--button {
   color: #fff;
   background-color: #0080ff;
+  font-weight: 500;
+  font-size: 2rem;
+
+  display: block;
+  text-align: center;
+
+  margin: 3rem 15% 1rem 15%;
+  padding: 1rem 3rem 1rem 3rem;
+  border: 0.2rem solid #0080ff;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  transition-property: color, background-color, opacity, border-color;
+  cursor: pointer;
 }
 
-.button.button--resume:hover {
+.resume--button:hover {
   background-color: #4ca5ff;
   border-color: #4ca5ff;
 }
@@ -281,10 +293,8 @@ a {
     margin-top: 6rem;
   }
 
-  .button.button--resume {
-    margin-right: 65%;
-    margin-left: 15%;
-    margin: 6.5rem 65% 0 12vw;
+  .resume--button {
+    margin: 6.5rem 67% 0 12vw;
   }
 }
 
@@ -308,6 +318,10 @@ a {
   .homepage__content p {
     font-size: 2.6rem;
     margin-left: 18rem;
+  }
+
+  .resume--button {
+    margin: 6.5rem 66% 0 15.5vw;
   }
 }
 
