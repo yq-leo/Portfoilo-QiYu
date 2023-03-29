@@ -114,18 +114,8 @@ a {
 }
 
 /* Collapsibles */
-.collapsible__header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.collapsible__heading {
-  margin-top: 0;
-  font-size: 3rem;
-}
-
 .collapsible__chevron {
-  transform: rotate(-90deg);
+  transform: rotate(0);
   transition: transform 0.3s;
 }
 
@@ -133,11 +123,11 @@ a {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.35s;
 }
 
 .collapsible--expanded .collapsible__chevron {
-  transform: rotate(0);
+  transform: rotate(-90deg);
 }
 
 .collapsible--expanded .collapsible__content {
@@ -180,13 +170,11 @@ a {
 
 .nav__toggler {
   opacity: 0.5;
-  transition: box-shadow 0.15s;
   cursor: pointer;
 }
 
 .nav.collapsible--expanded .nav__toggler {
   opacity: 1;
-  /* box-shadow: 0 0 0 3px #666; */
   border-radius: 5px;
 }
 
