@@ -223,8 +223,82 @@ a {
 .homepage__content .hi-qi-yu {
   margin-bottom: 0;
 }
-.homepage__content .cs-student {
+/* .homepage__content .cs-student:nth-of-type(1) {
   margin-top: 0.5rem;
+} */
+
+.homepage__content .identity-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 4.8rem;
+}
+
+.homepage__content .identity-container {
+  display: inline-block;
+  position: relative;
+  top: 0;
+  animation: moveup1 15s steps(1) infinite;
+}
+
+.homepage__content .identity-item {
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  border-right: 0.3rem solid orange;
+  font-size: 3.2rem;
+  font-weight: bold;
+  height: 100%;
+  width: 0%;
+  animation: typing 5s steps(30) infinite, blink 1s steps(2) infinite;
+}
+
+@keyframes typing {
+  10% {
+    width: 0;
+  }
+  30% {
+    width: 100%;
+  }
+  70% {
+    width: 100%;
+  }
+  90% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
+}
+
+@keyframes moveup1 {
+  0% {
+    top: 0;
+  }
+  33% {
+    top: -5rem;
+  }
+  66% {
+    top: -10.5rem;
+  }
+}
+
+@keyframes moveup2 {
+  0% {
+    top: 0;
+  }
+  33% {
+    top: -6.5rem;
+  }
+  66% {
+    top: -13.5rem;
+  }
 }
 
 .homepage__content p {
@@ -274,6 +348,21 @@ a {
     margin-right: 30%;
   }
 
+  .homepage__content .identity-wrapper {
+    height: 6.3rem;
+  }
+
+  .homepage__content .identity-container {
+    margin-left: 8vw;
+    margin-right: 30%;
+    animation-name: moveup2;
+  }
+
+  .homepage__content .identity-item {
+    font-size: 4.2rem;
+    border-right-width: 0.5rem;
+  }
+
   .homepage__content p {
     font-size: 2.2rem;
     margin-left: 8vw;
@@ -301,6 +390,15 @@ a {
     font-size: 5rem;
     margin-left: 18rem;
     line-height: 1.2;
+  }
+
+  .homepage__content .identity-container {
+    margin-left: 18rem;
+    line-height: 1.2;
+  }
+
+  .homepage__content .identity-item {
+    font-size: 5rem;
   }
 
   .homepage__content p {
