@@ -15,6 +15,8 @@ function alertSubmitSuccess() {
   alert("Submitted! Thank you for your message!");
 }
 
-alert(
-  "This website is deprecated and no longer maintained. Please visit https://yq-leo.github.io/portfolio/ (still under construction) for the latest version with some exciting new features!"
-);
+// window.onload = () => {
+//   alert(
+//     "This website is deprecated and no longer maintained. Please visit https://yq-leo.github.io/portfolio/ (still under construction) for the latest version with some exciting new features!"
+//   );
+// };
